@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Lexend:wght@200&family=Poppins:wght@200&display=swap');
+.calcborder{
+    width: 360px;
+    height: 400px;
+    border: 13px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    backdrop-filter: blur(1px);
+}
+.pos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 60vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/calcback.jpg);
+    background-size: cover;
+}
+form{
+    position: relative;
+    justify-content: center;
+}
+.flexx{ 
+    font-size: 40px;
+    left: 50%;
+    height: 9vh;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-family: 'DM Sans', sans-serif;
+    background: transparent;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.display{
+    color:aliceblue;
+    background-color: #000000;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.innerpos{
+    left:auto;
+}
+.texxt{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+    .calcborder {
+        width: 80%;
+    }
+
+    .flexx {
+        width: 48%;
+    }
+}
